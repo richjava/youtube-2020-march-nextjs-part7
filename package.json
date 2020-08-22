@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "node ./database-test.js && next dev",
     "build": "next build",
-    "start": "next start",
-    "postbuild": "next-on-netlify"
+    "start": "next start"
   },
   "dependencies": {
     "bcrypt": "4.0.1",
